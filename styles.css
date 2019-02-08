@@ -20,6 +20,7 @@ border-bottom: 1px solid #8B4513;
 position: fixed;
 width: 100%;
 z-index: 10;
+text-align: center;
 }
 h1 {
 color: #41292C;
