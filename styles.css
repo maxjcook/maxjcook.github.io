@@ -22,6 +22,7 @@ top:40px;
 width: 100%;
 z-index: 10;
 text-align: center;
+top:40px;
 }
 h1 {
 color: #41292C;
@@ -31,7 +32,7 @@ line-height: 76px;
 margin: 0;
 position: relative;
 text-align: center;
-top: 20%;
+
 }
 li {
   color: #41292C;
