@@ -10,4 +10,15 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
+  display: inline-block;
+}
+h1 {
+  color: #41292C;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
 }
