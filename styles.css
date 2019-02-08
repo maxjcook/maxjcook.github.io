@@ -17,10 +17,9 @@ position: fixed;
 header {
 background-color: #8B4513;
 border-bottom: 1px solid #8B4513;
-position: absolute;
+position: fixed;
 width: 100%;
 z-index: 10;
-display: inline-block;
 }
 h1 {
 color: #41292C;
@@ -31,4 +30,13 @@ margin: 0;
 position: relative;
 text-align: center;
 top: 20%;
+}
+li {
+  color: sienna;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;
 }
