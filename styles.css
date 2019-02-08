@@ -9,6 +9,7 @@ background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
 background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
 /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+margin: 0 auto;
 }
 
 header {
@@ -26,6 +27,11 @@ font-family: 'Covered By Your Grace', sans-serif;
 font-size: 100px;
 text-align: center;
 
+}
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
 }
 li:hover{
 	color: #F3E6D2;
