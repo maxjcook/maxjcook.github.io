@@ -19,8 +19,8 @@ position: fixed;
 width: 100%;
 z-index: 10;
 text-align: center;
-
 }
+
 h1 {
 color: #41292C;
 font-family: 'Covered By Your Grace', sans-serif;
@@ -58,7 +58,7 @@ li {
 }
 
 h2 {
-   color: #41292C;
+  color: #41292C;
   font-weight: 100;
   font-size: 22px;
   line-height: 24px;
