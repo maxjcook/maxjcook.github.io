@@ -69,7 +69,26 @@ h2 {
   font-family: Georgia;
 }
 
-
+a:link {
+  color: #41292C;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #41292C;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #F3E6D2;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #F3E6D2;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 footer{
 	text-align: center;
