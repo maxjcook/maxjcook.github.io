@@ -7,6 +7,7 @@
 <body>
 
 
+
 <header>
 <ul>
 	<li><a href="/index.html">Home</a></li>
@@ -16,20 +17,42 @@
 </ul>
 </header>
 
-  <div class="wip">
-  <h2>Web Examples</h2>
+  <button class="collapsible">Web</button>
+  <div class="content">
+  <p> some content</p>
   </div>
   
-   <div class="wip">
-  <h2>Servicenow</h2>
+   <button class="collapsible">Servicenow</button>
+  <div class="content">
+  <p> some content</p>
   </div>
   
-     <div class="wip">
-  <h2>Java</h2>
+ <button class="collapsible">Java</button>
+  <div class="content">
+  <p> some content</p>
   </div>
 
 <footer>
 
 </footer>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 </body>
 </html>
