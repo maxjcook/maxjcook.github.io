@@ -76,6 +76,8 @@ li {
   display: none;
   background-color: #F7F7F7;
   overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.6s ease-out;
 }
 
 
