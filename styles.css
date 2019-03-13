@@ -55,11 +55,11 @@ li {
 }
 
 .accordion {
-  background-color: #F7F7F7;
+  background-color: #F3E6D2;
   color: #41292C;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 20%;
   border: none;
   text-align: left;
   outline: none;
@@ -68,7 +68,7 @@ li {
 }
 
 .active, .accordion:hover {
-  background-color: #a0522d; 
+  background-color: #8B4513; 
 }
 
 .panel {
