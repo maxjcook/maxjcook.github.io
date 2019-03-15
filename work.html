@@ -2,9 +2,9 @@
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
- <link rel="stylesheet" type="text/css" href="styles.css">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- </head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <body>
 
 <header>
@@ -15,7 +15,7 @@
 	<li><a href="/MCT2019.pdf" download="MCT2019.pdf">Resume</a></li>
 </ul>
 </header>
-<h1></h1>
+<div class="welcome">
   <button class="accordion">Web</button>
   <div class="panel">
   <p> some content</p>
@@ -31,10 +31,7 @@
   <p> some content</p>
   </div>
 
-<footer>
-
-</footer>
-
+</div>
 
 <script>
 var acc = document.getElementsByClassName("accordion");
@@ -44,14 +41,28 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
     } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
+      panel.style.display = "block";
+    }
   });
 }
 </script>
+
+</body>
+</html>
+
+
+
+<footer>
+
+</footer>
+
+
+
+
+
 
 </body>
 </html>
